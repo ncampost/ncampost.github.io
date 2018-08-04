@@ -2,13 +2,14 @@
 /* Within entire page */
 #maincontainer {
 	margin: auto;
-	width: 75%;
+	padding-top: 8%;
+	width: 70%;
 }
 
 /* Front page section */
 .headliner {
 	margin-top: 20%;
-    margin-right: 20%;
+    margin-right: 30%;
     margin-bottom: 30%;
 }
 
@@ -60,6 +61,20 @@
     color: #999999;
 }
 
+.hilbert-canvas {
+	height: 100%;
+	width: 15%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	overflow-x: hidden;
+}
+.left {
+	left: 0;
+}
+.right {
+	right: 0;
+}
 
 
 
@@ -86,7 +101,6 @@
 body { /* light blue #b3daff, light orange #f9e4d2, slightly darker orange #f6d7bc */
 	margin: 0px;
 	height: 100%;
-	padding-top: 8%;
 
 	font-family: 'Lato', sans-serif;
 	line-height: 1.6;
