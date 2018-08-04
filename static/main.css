@@ -2,13 +2,12 @@
 /* Within entire page */
 #maincontainer {
 	margin: auto;
-	padding-top: 8%;
 	width: 70%;
 }
 
 /* Front page section */
 .headliner {
-	margin-top: 20%;
+	margin-top: 30%;
     margin-right: 30%;
     margin-bottom: 30%;
 }
