@@ -6,10 +6,34 @@
 }
 
 /* Front page section */
-.headliner {
+.mainheadliner {
 	margin-top: 30%;
     margin-right: 30%;
     margin-bottom: 30%;
+}
+
+#articlecontainer {
+	margin: auto;
+	width: 70%;
+}
+
+.articleheadliner {
+	text-align: center;
+	margin-top: 10%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 10%;
+}
+
+.articleimage {
+	max-width:100%;
+	max-height:100%;
+}
+
+.articlerow {
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 10%;
 }
 
 .icons {
@@ -115,6 +139,6 @@ h1 {
 	font-weight: bolder;
 }
 
-html { 
+html {
 	height:100%;
 }
