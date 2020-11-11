@@ -19,15 +19,29 @@
 
 .articleheadliner {
 	text-align: center;
-	margin-top: 10%;
+	margin-top: 5%;
 	margin-left: 20%;
 	margin-right: 20%;
 	margin-bottom: 10%;
 }
 
 .articleimage {
-	max-width:100%;
-	max-height:100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width:75%;
+	max-height:75%;
+}
+
+.articleimagecaption {
+	color: #707070;
+	background-color: #f9e4d2;
+}
+
+.articleimagecaptioninline{
+	color: #707070;
+	background-color: #f9e4d2;
+	margin-bottom: 5%;
 }
 
 .articlerow {
@@ -118,7 +132,6 @@
 .columnclass:first-child{
 	margin-left: 0;
 }
-
 
 /* Section styles */
 body { /* light blue #b3daff, light orange #f9e4d2, slightly darker orange #f6d7bc */
