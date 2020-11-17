@@ -15,14 +15,16 @@
 #articlecontainer {
 	margin: auto;
 	width: 70%;
+
+	line-height: 2;
+	font-size: 18px;
 }
 
 .articleheadliner {
 	text-align: center;
-	margin-top: 5%;
-	margin-left: 20%;
-	margin-right: 20%;
-	margin-bottom: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 5%;
 }
 
 .articleimage {
@@ -36,6 +38,7 @@
 .articleimagecaption {
 	color: #707070;
 	background-color: #f9e4d2;
+	font-size: 16px;
 }
 
 .articleimagecaptioninline{
@@ -45,8 +48,8 @@
 }
 
 .articlerow {
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 15%;
+	margin-right: 15%;
 	margin-bottom: 10%;
 }
 
@@ -113,7 +116,24 @@
 	right: 0;
 }
 
-
+.websiteheader {
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+.headertopic {
+	margin-left: 1%;
+	margin-right: 1%;
+	border-top:1px solid #000000;
+	border-left:0px solid #000000;
+	border-right:0px solid #000000;
+	border-bottom:1px solid #000000;
+}
 
 
 /* Row and column classes taken from Nik Papic's style.css, at nik.org */
@@ -154,4 +174,9 @@ h1 {
 
 html {
 	height:100%;
+}
+
+a, u {
+	text-decoration: none;
+	color: black;
 }
